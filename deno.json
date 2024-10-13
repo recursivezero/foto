@@ -1,0 +1,13 @@
+{
+  "tasks": {
+    "dev": "deno run --watch src/main.ts",
+    "serve": "deno serve --watch --port 5050  server.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@xkeshav/day": "jsr:@xkeshav/day@^1.1.1",
+    "@xkeshav/gh-repo-care": "npm:@xkeshav/gh-repo-care@^2.2.3",
+    "hono": "npm:hono@^4.6.4",
+    "node-emoji": "npm:node-emoji@^2.1.3"
+  }
+}
